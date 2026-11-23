@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Clínica Odontológica Sorriso Pleno - Odontologia moderna, preventiva e estética.">
+  <title>Clínica Sorriso Pleno | Odontologia Especializada</title>
+  <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+
+  <header class="cabecalho">
+    <div class="container cabecalho-conteudo">
+      <a href="#inicio" class="logotipo">Sorriso<span>Pleno</span></a>
+      <nav aria-label="Navegação principal">
+        <ul class="menu-lista">
+          <li><a href="#inicio">Início</a></li>
+          <li><a href="#especialidades">Especialidades</a></li>
+          <li><a href="#sobre">Sobre Nós</a></li>
+          <li><a href="#contato" class="btn-destaque-nav">Agendar Consulta</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section id="inicio" class="hero">
+      <div class="container hero-conteudo">
+        <div class="hero-texto">
+          <h1>Tecnologia e cuidado humanizado para transformar o seu sorriso</h1>
+          <p>Atendimento odontológico completo com equipamentos de última geração, diagnóstico digital e equipe especializada no bem-estar de toda a família.</p>
+          <a href="#contato" class="btn-primario">Agendar Avaliação Inicial</a>
+        </div>
+        <div class="hero-destaque-card">
+          <h2>Atendimento Rápido</h2>
+          <p>Avaliação preventiva e planejamento digital sem filas de espera.</p>
+          <ul class="lista-beneficios">
+            <li>✔ Equipamentos de radiografia digital</li>
+            <li>✔ Protocolos rigorosos de biossegurança</li>
+            <li>✔ Convênios e atendimento particular</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section id="especialidades" class="secao-clara">
+      <div class="container">
+        <header class="titulo-secao">
+          <h2>Nossas Especialidades</h2>
+          <p>Tratamentos personalizados conduzidos por especialistas em cada área da odontologia.</p>
+        </header>
+
+        <div class="grade-especialidades">
+          <article class="cartao-servico">
+            <h3>Ortodontia Digital</h3>
+            <p>Alinhadores invisíveis e aparelhos modernos para correção funcional e estética com maior conforto e previsibilidade.</p>
+          </article>
+
+          <article class="cartao-servico">
+            <h3>Implantes Dentários</h3>
+            <p>Reabilitação oral segura com implantes de titânio de alta precisão para devolver a função mastigatória e autoestima.</p>
+          </article>
+
+          <article class="cartao-servico">
+            <h3>Estética e Clareamento</h3>
+            <p>Clareamento a laser supervisionado e lentes de contato dental planejadas digitalmente para harmonia natural.</p>
+          </article>
+
+          <article class="cartao-servico">
+            <h3>Odontologia Preventiva</h3>
+            <p>Profilaxia completa, acompanhamento periódico e diagnóstico precoce para manter sua saúde bucal sempre em dia.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="sobre" class="secao-institucional">
+      <div class="container sobre-grid">
+        <div class="sobre-texto">
+          <h2>Compromisso com a Excelência Clínica</h2>
+          <p>Fundada com o propósito de unir rigor técnico e acolhimento, a <strong>Clínica Sorriso Pleno</strong> oferece infraestrutura moderna, ambientes climatizados e acompanhamento transparente em todas as etapas do tratamento.</p>
+          <p>Nossa equipe atua de forma integrada para garantir diagnósticos precisos e resultados duradouros.</p>
+        </div>
+        <div class="sobre-metricas">
+          <div class="metrica-item">
+            <strong>+12</strong>
+            <span>Anos de experiência</span>
+          </div>
+          <div class="metrica-item">
+            <strong>4.500+</strong>
+            <span>Pacientes atendidos</span>
+          </div>
+          <div class="metrica-item">
+            <strong>99%</strong>
+            <span>Índice de satisfação</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="contato" class="secao-clara">
+      <div class="container contato-container">
+        <header class="titulo-secao">
+          <h2>Agende sua Avaliação</h2>
+          <p>Preencha os dados abaixo e nossa equipe entrará em contato para confirmar o melhor horário.</p>
+        </header>
+
+        <form class="formulario-contato" action="#" method="post">
+          <div class="campo-grupo">
+            <label for="nome">Nome Completo</label>
+            <input type="text" id="nome" name="nome" placeholder="Ex: Maria Oliveira" required>
+          </div>
+
+          <div class="campo-grupo">
+            <label for="telefone">Telefone / WhatsApp</label>
+            <input type="tel" id="telefone" name="telefone" placeholder="(81) 99999-0000" required>
+          </div>
+
+          <div class="campo-grupo">
+            <label for="especialidade">Especialidade Desejada</label>
+            <select id="especialidade" name="especialidade" required>
+              <option value="">Selecione uma opção</option>
+              <option value="avaliacao">Avaliação Geral / Limpeza</option>
+              <option value="ortodontia">Ortodontia</option>
+              <option value="implantes">Implantes Dentários</option>
+              <option value="estetica">Estética / Clareamento</option>
+            </select>
+          </div>
+
+          <button type="submit" class="btn-primario btn-largura-total">Solicitar Agendamento</button>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="rodape">
+    <div class="container rodape-conteudo">
+      <div>
+        <h3>Clínica Sorriso Pleno</h3>
+        <p>Av. Principal, 1020 — Centro | Atendimento de Seg. a Sex., das 08h às 19h.</p>
+      </div>
+      <p class="copyright">© 2026 Clínica Odontológica Sorriso Pleno. Todos os direitos reservados.</p>
+    </div>
+  </footer>
+
+</body>
+</html>
